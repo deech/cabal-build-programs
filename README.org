@@ -1,0 +1,9 @@
+* cabal-build-programs
+  A Cabal library that allows build time dependencies on non-Haskell
+  executables. As of this writing there is no convenient Cabal field for
+  non-Haskell programs that are sometimes useful in a polyglot build like
+  'cmake' or 'gprof'. This library solves that by providing a custom Cabal field
+  "x-build-programs" which contains a list of such dependencies.
+
+  See the [[https://hackage.haskell.org/package/cabal-build-programs/docs/Distribution-Simple-BuildPrograms.html][Haddock documentation]] for much more detail.
+
