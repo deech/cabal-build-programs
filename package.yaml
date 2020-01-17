@@ -1,5 +1,5 @@
 name:                cabal-build-programs
-version:             0.1.0.0
+version:             0.1.0.1
 github:              "deech/cabal-build-programs"
 license:             BSD3
 author:              "Aditya Siram"

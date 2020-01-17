@@ -25,6 +25,7 @@ module Distribution.Simple.BuildPrograms
     , buildProgramsUserHooks
     , localBuildInfoWithBuildPrograms
     , componentBuildPrograms
+    , overlayUserHooks
     ) where
 
 import Distribution.Simple(UserHooks(..),simpleUserHooks, defaultMainWithHooks)
@@ -298,7 +299,7 @@ localBuildInfoWithBuildPrograms args verbosity hookedPs pd lbi =
 -- dependencies.
 --
 -- The easiest way is to use the provided 'defaultMain'. For more advanced use
--- check the docs for 'buildProgramsUserHooks' and
+-- check the docs for 'buildProgramsUserHooks', 'overlayUserHooks' and
 -- 'localBuildInfoWithBuildPrograms'.
 --
 --
